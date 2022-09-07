@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import {DropdownModule} from 'primeng/dropdown';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {TabMenuModule} from 'primeng/tabmenu';
-import {MenuItem} from 'primeng/api';
+import { SharedModule } from './shared/shared.module';
+
 
 
 @NgModule({
@@ -21,9 +21,10 @@ import {MenuItem} from 'primeng/api';
     DropdownModule,
     ReactiveFormsModule,
     FormsModule,
-    TabMenuModule
+    SharedModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [SharedModule]
 })
 export class AppModule { }
