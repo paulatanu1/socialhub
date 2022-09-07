@@ -1,28 +1,23 @@
 import { Component, OnInit } from '@angular/core';
-
-interface City {
-  name: string,
-  code: string
-}
+import {MenuItem} from 'primeng/api';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  cities: City[];
-  // selectedCity: City;
-  constructor() { 
-    this.cities = [
-      {name: 'New York', code: 'NY'},
-      {name: 'Rome', code: 'RM'},
-      {name: 'London', code: 'LDN'},
-      {name: 'Istanbul', code: 'IST'},
-      {name: 'Paris', code: 'PRS'}
-  ];
-  }
+  items!: MenuItem[];
+  constructor() { }
 
   ngOnInit(): void {
+
+    this.items = [
+      {label: 'Home', icon: 'pi pi-fw pi-home'},
+      {label: 'Active-users', icon: 'pi pi-fw pi-calendar'},
+      {label: 'News', icon: 'pi pi-fw pi-pencil'},
+      {label: 'Settings', icon: 'pi pi-fw pi-cog'}
+  ];
+
   }
 
 

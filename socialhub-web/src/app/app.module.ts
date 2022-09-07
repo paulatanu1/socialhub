@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import {DropdownModule} from 'primeng/dropdown';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {TabMenuModule} from 'primeng/tabmenu';
+import {MenuItem} from 'primeng/api';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +20,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     DropdownModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    TabMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
