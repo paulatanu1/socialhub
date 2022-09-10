@@ -1,0 +1,13 @@
+.menu-section {
+    .menu-options{
+        ::ng-deep .p-component{
+            .p-tabmenu-nav-container{
+                .p-tabmenu-nav-content{
+                    .p-tabmenu-nav{
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}
