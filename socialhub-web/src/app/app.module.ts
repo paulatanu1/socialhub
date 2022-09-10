@@ -7,13 +7,15 @@ import { HeaderComponent } from './header/header.component';
 import {DropdownModule} from 'primeng/dropdown';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SharedModule } from './shared/shared.module';
+import { PostSectionComponent } from './post-section/post-section.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    PostSectionComponent
   ],
   imports: [
     BrowserModule,
