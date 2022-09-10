@@ -1,0 +1,139 @@
+
+.group{
+    width: 40%;
+    // margin: 0 auto;
+}
+.top-white{
+    display: flex;
+    background-color: #fff;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 3px;
+    /* justify-content: space-around; */
+}
+.form-box{
+    width: 90%
+}
+
+.form-box form{
+    display: flex;
+    flex-direction: column;
+}
+.form-box textarea{
+    resize: none;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid #eee;
+    border-bottom: 0;
+    outline: none;
+    padding: 10px;
+}
+.form-box textarea::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.img{
+    /* height: 50px; */
+    width: 10%;
+    height: 10%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img>img{
+    height: 100%;
+    width: 100%;
+}
+.publish{
+    border: 1px solid #eee;
+    border-radius: 0 0 3px 3px;
+    border-top: 0;
+    text-align: right;
+    padding: 10px;
+}
+.publish button{
+    background-color: #088dcd;
+    border-radius: 3px;
+    padding: 7px 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.post{
+    background-color: #fff;
+    /* margin: 0 auto; */
+    border-radius: 3px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.name-box{
+    display: flex;
+    gap: 20px;
+    
+    padding-top: 20px;
+}
+.name-details{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name-details>p{
+    color: #088dcd;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.name-details>span{
+    color: #9b9faf;
+    font-size: 12px;
+}
+.name-img{
+    height: 9%;
+    width: 9%;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7a7d89;
+    font-size: 14px;
+    line-height: 19pt;
+}
+.text>span{
+    color: #088dcd;
+}
+.img-wrap{
+    display: flex;
+    margin-top: 40px;
+}
+.page-img{
+    width: 85%;
+    /* height: 40%; */
+    aspect-ratio: 1;
+}
+.page-img>img{
+    height: inherit;
+    width: inherit;
+}
+.page-head{
+    color: #088dcd;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.page-body{
+    color: #9b9faf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18pt;
+}
+.page-details>a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7a7d89;
+    font-size: 12px;
+    text-decoration: none;
+}
+.page-details>a:hover{
+    color: #d40000;
+    cursor: pointer;
+}
