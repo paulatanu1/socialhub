@@ -11,7 +11,7 @@ import {SkeletonModule} from 'primeng/skeleton';
   ],
   exports: [
     TabMenuModule,
-    SkeletonModule
+    SkeletonModule,
   ]
 })
 export class SharedModule { }
